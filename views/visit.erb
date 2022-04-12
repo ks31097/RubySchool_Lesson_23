@@ -1,0 +1,28 @@
+<h2>Записаться</h2>
+<p>На этой странице Вы сможете записаться к нам в Barber Shop</p>
+
+<form action="/visit" method="POST">
+  <div class="mb-3">
+    <label>Ваше имя</label>
+    <input name="user_name" type="text" class="form-control" placeholder="Введите Ваше имя">
+  </div>
+
+  <div class="mb-3">
+    <label>Ваш телефон</label>
+    <input name="user_phone" type="text" class="form-control" placeholder="Номер Вашего телефона">
+  </div>
+
+  <div class="mb-3">
+    <label>Когда Вас ждать?</label>
+    <input name="date_time" type="text" class="form-control" placeholder="Введите дату и время">
+  </div>
+
+  <select name="master" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+    <option selected>Выбрать мастера</option>
+    <option value="Walter White">Walter White</option>
+    <option value="Jessie Pinkman">Jessie Pinkman</option>
+    <option value="Gus Fring">Gus Fring</option>
+  </select>
+  <br/>
+  <button type="submit" class="btn btn-primary">Записаться</button>
+</form>
