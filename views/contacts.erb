@@ -2,14 +2,15 @@
 
 <form action="/contacts" method="POST">
   <div class="mb-3">
-    <label>Адрес электронной почты</label>
-    <input name="user_email" type="text" class="form-control" placeholder="Email address">
+    <label>Электронная почта</label>
+    <input name="user_email" type="text" class="form-control" placeholder="Email">
   </div>
 
   <div class="form-floating">
-    <label for="floatingTextarea2">Контакты</label>
-    <textarea name="user_message" class="form-control" placeholder="Оставьте Ваш отзыв" id="floatingTextarea2" style="height: 100px"></textarea>
+    <textarea name="user_message" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+    <label for="floatingTextarea2">Ваши контакты</label>
   </div>
+
   <br/>
   <button type="submit" class="btn btn-primary">Отправить</button>
 </form>

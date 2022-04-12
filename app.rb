@@ -38,7 +38,7 @@ post '/contacts' do
         @user_email = params[:user_email] # получить, то что отправил браузер
         @user_message = params[:user_message] # получить, то что отправил браузер
 
-        @title = 'Спасибо! Актуальные контакты добавлены'
+        @title = 'Контакты успешно отправленны!'
 
         output = File.open('./public/contacts.txt', 'a')
         output.write "User: #{@user_email}, message: #{@user_message}\n"
