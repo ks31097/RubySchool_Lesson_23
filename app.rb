@@ -23,7 +23,7 @@ post '/visit' do
         @title = 'Спасибо!'
         @message = "#{@user_name}, мы Вас ждем #{@date_time}. Ваш мастер #{@master}!"
 
-        output = File.open('./public/users.txt', 'a')
+        output = File.open('./public/visits.txt', 'a')
         output.write "User: #{@user_name}, Phone: #{@user_phone}, Date and time: #{@date_time}, master: #{@master}\n"
         output.close
 
