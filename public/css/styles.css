@@ -1,0 +1,18 @@
+/* коментарий */
+h2 {
+    background-color: #5FC8C8;
+    font-family: Sans;
+}
+
+body {
+      font-family: Arial;
+}
+
+.something {
+      background-color: blue;
+      color: white
+}
+
+#slogan {
+      background-color: yellow;
+}
